@@ -1,15 +1,47 @@
 
-# Big Game Survey 
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/devsuperior/sds1-wmazoni/blob/master/LICENSE) 
+# WorkShop - Spring Boot 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/Thiago-CSantos/Workshop-SpringBoot3-JPA/blob/main/LICENCE)
 
 # Sobre o projeto
 
 Uma aplicação em Back-End Web-service construída durante as aulas [Java COMPLETO Programação Orientada a Objetos +Projetos](https://www.udemy.com/course/java-curso-completo/).
-Com um relacionamento entre **Pedido**-**Produto**-**Usuario**. Há aplicação consiste em demonstrar todo o meu aprendizado em Spring Boot e JPA/Hibernate, onde é realizado os comandos 'CRUD' = `insert` `update` `delete`
- `select`.
+Com um relacionamento entre **Pedido**-**Produto**-**Usuario**. Há aplicação consiste em demonstrar todo o meu aprendizado em Spring Boot e JPA/Hibernate, onde é realizado os comandos 'CRUD' = `insert`, `update`, `delete`, `select`.
+
+# Dashboard
+- Tabelas
+- ![tabelas Dashboard](https://github.com/Thiago-CSantos/assets/blob/main/tabelasDashbord.png)
+- ![tb_category](https://github.com/Thiago-CSantos/assets/blob/main/Dashboard/tb_category.png) 
+- ![tb_order](https://github.com/Thiago-CSantos/assets/blob/main/Dashboard/tb_order.png) 
+- ![tb_order](https://github.com/Thiago-CSantos/assets/blob/main/Dashboard/tb_order_item.png) 
+- ![tb_order-item](https://github.com/Thiago-CSantos/assets/blob/main/Dashboard/tb_order_item.png) 
+- ![tb_payment](https://github.com/Thiago-CSantos/assets/blob/main/Dashboard/tb_payment.png) 
+- ![tb_product](https://github.com/Thiago-CSantos/assets/blob/main/Dashboard/tb_product.png) 
+- ![tb_product-category](https://github.com/Thiago-CSantos/assets/blob/main/Dashboard/tb_product_category.png) 
+- ![tb_user](https://github.com/Thiago-CSantos/assets/blob/main/Dashboard/tb_user.png)
+
+## Postman
+- Buscando usuarios no banco
+![get Postman](https://github.com/Thiago-CSantos/assets/blob/main/getPostman.png)
+
+- Buscando usuario por **ID** no banco
+![get Postman ID](https://github.com/Thiago-CSantos/assets/blob/main/getPostmanUsers2.png)
+
+- Inserindo usuario
+![post Postman users](https://github.com/Thiago-CSantos/assets/blob/main/postPostmanUsers.png)
+
+- Delete usuario por **ID**
+![delete Postman users/3](https://github.com/Thiago-CSantos/assets/blob/main/deletePostmanUsers3.png)
+
+- Atualizar usuario
+![](https://github.com/Thiago-CSantos/assets/blob/b4fad29694c8a16a0019e86da8a038161904a092/putPostmanusers1.png)
 
 ## Modelo de domínio
-![Modelo de domínio]
+![Modelo de domínio](https://github.com/Thiago-CSantos/assets/blob/main/modeloDominio.png)
+
+### Instancia de dominio
+![Instancia de dominio](https://github.com/Thiago-CSantos/assets/blob/main/instanciaDominio.png)
+
+
 <!-- https://wmazoni-sds1.netlify.app
 
 Big Game Survey é uma aplicação full stack web e mobile construída durante a 1ª edição da **Semana DevSuperior** (#sds1), evento organizado pela [DevSuperior](https://devsuperior.com "Site da DevSuperior").
