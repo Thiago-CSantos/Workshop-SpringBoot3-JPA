@@ -24,4 +24,10 @@ public class UserService {
 		
 		return obj.get();
 	}
+	
+	//função inserir novo usúario
+	public User insert(User obj) {
+		return this.repository.save(obj);  //Savar um novo usuario
+	}
+	
 }
