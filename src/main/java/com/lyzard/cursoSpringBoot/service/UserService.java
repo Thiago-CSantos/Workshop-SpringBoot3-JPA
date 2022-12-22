@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 import com.lyzard.cursoSpringBoot.entities.User;
 import com.lyzard.cursoSpringBoot.repositories.UserRepository;
+import com.lyzard.cursoSpringBoot.service.exceptions.ResourceNotFoundException;
 
 @Service
 public class UserService {
@@ -22,7 +23,9 @@ public class UserService {
 	public User findById(Long id){
 		Optional<User> obj = repository.findById(id);
 		
-		return obj.get();
+		//return obj.get(); metodo comum de retornar sem uma exeção
+		
+		return obj.orElseThrow( () -> new ResourceNotFoundException(id) );
 	}
 	
 	//função inserir novo usúario
